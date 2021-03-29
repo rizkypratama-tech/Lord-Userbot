@@ -382,7 +382,6 @@ async def typewriter(typew):
     await typew.edit("`aowkwkwk`")
 # Create by myself @localheart
 
-
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
@@ -461,8 +460,6 @@ CMD_HELP.update({
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sayang`\
     \nUsage: untuk jadi buaya.\
-    \n\n`.pry`\
-    \nUsage: hehe.\
     \n\n`.terkadang`\
     \nUsage: Auk dah iseng doang."
 })
