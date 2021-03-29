@@ -366,6 +366,23 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.pry(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`pry`")
+    sleep(1)
+    await typew.edit("`lu jadi orang`")
+    sleep(1)
+    await typew.edit("`jangan sombong`")
+    sleep(1)
+    await typew.edit("`pamer bot mulu anjigg`")
+    sleep(1)
+    await typew.edit("`maju sini lu`")
+    sleep(1)
+    await typew.edit("`aowkwkwk`")
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
