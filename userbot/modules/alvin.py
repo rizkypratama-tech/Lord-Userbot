@@ -369,18 +369,19 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.pry(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`pry`")
+    await typew.edit("`Pry`")
     sleep(1)
-    await typew.edit("`lu jadi orang`")
+    await typew.edit("`Lu jadi orang`")
     sleep(1)
-    await typew.edit("`jangan sombong`")
+    await typew.edit("`Jangan sombong`")
     sleep(1)
-    await typew.edit("`pamer bot mulu anjigg`")
+    await typew.edit("`Pamer bot mulu anjigg`")
     sleep(1)
-    await typew.edit("`maju sini lu`")
+    await typew.edit("`Maju sini lu`")
     sleep(1)
-    await typew.edit("`aowkwkwk`")
+    await typew.edit("`Aowkwkwk`")
 # Create by myself @localheart
+
 
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
