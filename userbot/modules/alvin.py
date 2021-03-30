@@ -349,37 +349,20 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.terkadang(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("`Terkadang`")
-    sleep(1)
-    await typew.edit("`Mencintai Seseorang`")
-    sleep(1)
-    await typew.edit("`Hanya Akan Membuang Waktumu`")
-    sleep(1)
-    await typew.edit("`Ketika Waktumu Habis`")
-    sleep(1)
-    await typew.edit("`Tambah Aja 5000`")
-    sleep(1)
-    await typew.edit("`Bercanda`")
-# Create by myself @localheart
-
-
 @register(outgoing=True, pattern='^.pry(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Pry`")
+    await typew.edit("`pry`")
     sleep(1)
-    await typew.edit("`Lu jadi orang`")
+    await typew.edit("`lu jadi orang`")
     sleep(1)
-    await typew.edit("`Jangan sombong`")
+    await typew.edit("`jangan sombong`")
     sleep(1)
-    await typew.edit("`Pamer bot mulu anjigg`")
+    await typew.edit("`pamer bot mulu ajig`")
     sleep(1)
-    await typew.edit("`Maju sini lu`")
+    await typew.edit("`maju sini lu`")
     sleep(1)
-    await typew.edit("`Aowkwkwk`")
+    await typew.edit("`aowkwkwk`")
 # Create by myself @localheart
 
 
@@ -461,6 +444,6 @@ CMD_HELP.update({
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sayang`\
     \nUsage: untuk jadi buaya.\
-    \n\n`.terkadang`\
+    \n\n`.pry`\
     \nUsage: Auk dah iseng doang."
 })
